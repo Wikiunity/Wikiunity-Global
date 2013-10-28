@@ -12,3 +12,5 @@ Wikiunity-Global
 * @Hostname by Michael Kaufmann
 */
 </pre>
+
+Design by <a href="http://wikibyte.org">Wikibyte.org</a>
