@@ -1,0 +1,7 @@
+/* Das folgende CSS wird für alle Benutzeroberflächen geladen. */
+/* Wikiunity Developer Standart Logo*/
+#p-logo a{
+background-position: center center;
+background-repeat: no-repeat;
+background-image: url("/w/extensions/GlobWU/HomePack/eng/images/Developer-wiki-logo.png") !important;
+}

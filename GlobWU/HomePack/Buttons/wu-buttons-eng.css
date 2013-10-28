@@ -1,0 +1,48 @@
+/* Das folgende CSS wird für alle Benutzeroberflächen geladen. */
+
+/*Erstelle ein Wiki Button*/
+#create-your-wiki {
+border: 1px solid #A5CBE3; 
+border-radius: 4px 4px 4px 4px; 
+float: left; 
+font-size: 14px; 
+height: 17px; 
+line-height: 16px; 
+padding: 8px; 
+position: relative; 
+background: url("/w/extensions/AdvertisingInclude/images/Button-bg.png") repeat-x center center #008BE3 !important /* #006CB0*/ ;
+top: 1px;
+}
+#create-your-wiki a {
+text-decoration:none !important;
+}
+#create-your-wiki:hover {
+background: url("/w/extensions/AdvertisingInclude/images/Button-hover-bg.png") repeat-x center center #005F9C !important /* #006CB0*/ ;
+/*background-image: -moz-linear-gradient(center top , #005F9C 35%, #007FCF 65%);*/
+
+}
+#create-your-wiki:hover a {
+text-decoration:none !important;
+}
+/*** Wikiunity Link Buttons ***/
+#wu-link {
+border: 1px solid #A5CBE3; 
+border-radius: 4px 4px 4px 4px; 
+float: right; 
+font-size: 10px; 
+height: 17px; 
+line-height: 16px; 
+padding: 4px 15px;
+position: relative; 
+background: url("/w/extensions/AdvertisingInclude/images/Button-bg.png") repeat-x center center #008BE3 !important /* #006CB0*/ ;
+top: 1px;
+}
+#wu-link a {
+text-decoration:none !important;
+}
+#wu-link:hover {
+background: url("/w/extensions/AdvertisingInclude/images/Button-hover-bg.png") repeat-x center center #005F9C !important /* #006CB0*/ ;
+}
+#wu-link:hover a {
+text-decoration:none !important;
+}

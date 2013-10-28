@@ -1,0 +1,59 @@
+/* Das folgende CSS wird für alle Benutzeroberflächen geladen. */
+
+/*** Header ***/
+/*Startseite h1, h2 + ...entfernen*/
+body.page-Wikiunity h1.firstHeading,
+body.page-Wikiunity h2, 
+body.page-Wikiunity #ca-talk, 
+body.page-Wikiunity #ca-view,
+body.page-Wikiunity #ca-watch,
+body.page-Wikiunity #p-cactions,
+body.page-Wikiunity #ca-edit,
+body.page-Wikiunity #ca-history,
+body.page-Wikiunity #p-views,
+body.page-Wikiunity #ca-nstab-main,
+body.page-Wikiunity #mw-head-base,
+body.page-Wikiunity #catlinks { 
+display:none !important; 
+}
+/*Startseite -Seitenhintergrund entfernen*/
+body.page-Wikiunity div#content,
+body.page-Wikiunity div#footer,
+body.page-Wikiunity div.vectorTabs {
+background: transparent !important;
+background-image:none !important;
+background-color: transparent !important;
+}
+
+
+div#mw-panel div.portal {    padding-bottom: 10px; }
+div#mw-panel div.portal h5 { padding: 4px 0 3px 1.3em; font-size: 1em; }
+div.catlinks { 
+border:0; 
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35); 
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35); 
+-moz-border-radius: 7px; 
+-webkit-border-radius: 7px; 
+border-radius: 7px; 
+background-color: #fff; 
+background-image: -moz-linear-gradient(top, #fff, #fff 75%, #f5f5f5); 
+background-image: -ms-linear-gradient(top, #fff, #fff 75%, #f5f5f5); 
+background-image: -o-linear-gradient(top, #fff, #fff 75%, #f5f5f5); 
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5f5), color-stop(75%, #fff)); 
+height:auto; 
+margin-top: 14px;
+padding: 6px;
+}
+ 
+div#mw-normal-catlinks{
+border:1px solid #aaa;
+padding: 4px;
+}
+
+/*** Seiten entfernen / bearbeiten von Tag-Elementen***/
+/**Projekt_Werbung_schalten_News**/
+div#news-affi a {
+text-decoration: none !important;
+background: none !important;
+}
